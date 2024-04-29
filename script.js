@@ -344,7 +344,7 @@ let travelMethodCounts = { car: 5, truck: 3, bike: 2, walk: 2, van: 2 }
 
 // Enter your solution code here:
 travelMethodCounts = travelMethods.reduce((tally, method) => {
-  // Increment the count for the current travel method or initialize it to 1 if it doesn't exist
+  
   tally[method] = (tally[method] || 0) + 1;
   return tally;
 }, {});
